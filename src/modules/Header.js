@@ -26,6 +26,11 @@ const Container = styled.div`
   justify-content: space-between;
   align-items: center;
 
+  @media (max-width: 1440px) {
+    width: calc(100% - 40px);
+  }
+
+
   @media (max-width: 768px) {
     width: 100%;
     padding: 32px 0;
@@ -71,12 +76,12 @@ const Header = () => {
       <Container>
         <MobileIcons>
           <div>
-            <Icon src="assets/icons/menu-mob.svg" alt="Menu" />
-            <Icon src="assets/icons/logo-mob.svg" alt="Logo" />
+            <Icon src={`${process.env.PUBLIC_URL}/assets/icons/menu-mob.svg`} alt="Menu" />
+            <Icon src={`${process.env.PUBLIC_URL}/assets/icons/logo-mob.svg`} alt="Logo" />
           </div>
           <div>
-            <Icon src="assets/icons/icon-search-mob.svg" alt="Search" />
-            <Icon src="assets/icons/icon-minicart.svg" alt="Minicart" />
+            <Icon src={`${process.env.PUBLIC_URL}/assets/icons/icon-search-mob.svg`} alt="Search" />
+            <Icon src={`${process.env.PUBLIC_URL}/assets/icons/icon-minicart.svg`} alt="Minicart" />
           </div>
         </MobileIcons>
         <Logo />

@@ -5,8 +5,8 @@
       "title": "Promoções de Outono",
       "subtitle": "Confira os melhores looks para combinar com você neste Outono",
       "textButton": "Conferir",
-      "image": "assets/image/mainbanner-1.png",
-      "imageMobile": "assets/image/mainbanner-mobile-1-mobile.png"
+      "image": "https://dionipires.github.io/loja-teste-maeztra/assets/image/mainbanner-1.png",
+      "imageMobile": "https://dionipires.github.io/loja-teste-maeztra/assets/image/mainbanner-mobile-1-mobile.png"
     },
     {
       "id": 2,
@@ -14,8 +14,8 @@
       "title": "Descontos Imperdíveis",
       "subtitle": "Aproveite nossas ofertas incríveis antes que seja tarde demais",
       "textButton": "Ver Ofertas",
-      "image": "assets/image/mainbanner-2.png",
-      "imageMobile": "assets/image/mainbanner-mobile-2-mobile.png"
+      "image": "https://dionipires.github.io/loja-teste-maeztra/assets/image/mainbanner-2.png",
+      "imageMobile": "https://dionipires.github.io/loja-teste-maeztra/assets/image/mainbanner-mobile-2-mobile.png"
     },
     {
       "id": 3,
@@ -23,8 +23,8 @@
       "title": "Coleção Outono-Inverno",
       "subtitle": "Descubra as tendências mais quentes da estação",
       "textButton": "Explorar",
-      "image": "assets/image/mainbanner-1.png",
-      "imageMobile": "assets/image/mainbanner-mobile-1-mobile.png"
+      "image": "https://dionipires.github.io/loja-teste-maeztra/assets/image/mainbanner-1.png",
+      "imageMobile": "https://dionipires.github.io/loja-teste-maeztra/assets/image/mainbanner-mobile-1-mobile.png"
     }
   ]
   

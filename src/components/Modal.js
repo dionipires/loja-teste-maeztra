@@ -50,7 +50,7 @@ const CloseButton = styled.button`
 `;
 
 const ColumnOne = styled.div`
-  background: url('assets/image/img-modalNewsletter.png');
+  background: url('https://dionipires.github.io/loja-teste-maeztra/assets/image/img-modalNewsletter.png');
   background-size: cover;
   background-position: -340px 0px;
   background-repeat: no-repeat;
@@ -168,7 +168,7 @@ const Modal = ({ onClose }) => {
         <CloseButton onClick={onClose}>FECHAR</CloseButton>
         <ColumnOne></ColumnOne>
         <Column>
-          <Icon src="assets/icons/mail.svg" alt="Ícone" />
+          <Icon src={`${process.env.PUBLIC_URL}/assets/icons/mail.svg`} alt="Ícone" />
           <TitleModal>Bem Vindo à MAEZTRA</TitleModal>
           <Text>
             Receba em Primeira mão
@@ -177,7 +177,7 @@ const Modal = ({ onClose }) => {
           </Text>
           <Input type="email" placeholder="Digite seu e-mail" />
           <Button>
-            Enviar <Icon src="assets/icons/send.svg" alt="Enviar" />
+            Enviar <Icon src={`${process.env.PUBLIC_URL}/assets/icons/send.svg`} alt="Enviar" />
           </Button>
         </Column>
       </ModalContent>

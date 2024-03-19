@@ -25,10 +25,10 @@ const GlobalStyles = createGlobalStyle`
   }
 
   .banner-slider {
+    display: block !important; 
 
       .slick-slide {
-        height: auto !important;
-        width: 100vw !important;
+        max-width: initial !important;
       }
       .slick-prev  {
         left: 5%;

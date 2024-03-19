@@ -5,7 +5,7 @@
       "description": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
       "value": 49.99,
       "colors": ["#DEAC71", "#D37164", "#6497D3", "#3C3B79"],
-      "imageProduct": "../assets/image/product-1.png"
+      "imageProduct": "https://dionipires.github.io/loja-teste-maeztra/assets/image/product-1.png"
     },
     {
       "id": 2,
@@ -13,7 +13,7 @@
       "description": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
       "value": 59.99,
       "colors": ["#353535", "#D84E4B", "#CFC9B0", "#EAE9E5"],
-      "imageProduct": "assets/image/product-2.png"
+      "imageProduct": "https://dionipires.github.io/loja-teste-maeztra/assets/image/product-2.png"
     },
     {
       "id": 3,
@@ -21,7 +21,7 @@
       "description": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
       "value": 39.99,
       "colors": ["#DEAC71", "#D37164", "#6497D3", "#3C3B79"],
-      "imageProduct": "assets/image/product-1.png"
+      "imageProduct": "https://dionipires.github.io/loja-teste-maeztra/assets/image/product-1.png"
     },
     {
       "id": 4,
@@ -29,7 +29,7 @@
       "description": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
       "value": 69.99,
       "colors": ["#353535", "#D84E4B", "#CFC9B0", "#EAE9E5"],
-      "imageProduct": "assets/image/product-2.png"
+      "imageProduct": "https://dionipires.github.io/loja-teste-maeztra/assets/image/product-2.png"
     },
     {
       "id": 5,
@@ -37,7 +37,7 @@
       "description": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
       "value": 79.99,
       "colors": ["#DEAC71", "#D37164", "#6497D3", "#3C3B79"],
-      "imageProduct": "assets/image/product-1.png"
+      "imageProduct": "https://dionipires.github.io/loja-teste-maeztra/assets/image/product-1.png"
     },
     {
       "id": 6,
@@ -45,7 +45,7 @@
       "description": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
       "value": 89.99,
       "colors": ["#353535", "#D84E4B", "#CFC9B0", "#EAE9E5"],
-      "imageProduct": "assets/image/product-2.png"
+      "imageProduct": "https://dionipires.github.io/loja-teste-maeztra/assets/image/product-2.png"
     },
     {
       "id": 7,
@@ -53,7 +53,7 @@
       "description": "A faux suede mini skirt featuring exposed button-front closures and panel seam construction.",
       "value": 99.99,
       "colors": ["#DEAC71", "#D37164", "#6497D3", "#3C3B79"],
-      "imageProduct": "assets/image/product-1.png"
+      "imageProduct": "https://dionipires.github.io/loja-teste-maeztra/assets/image/product-1.png"
     }
   ]
   

@@ -31,17 +31,16 @@ const UserArea = () => {
   return (
     <UsersArea className="user-area">
       <SpanDefault>
-        <IconUsers src="assets/icons/icon-user.svg" alt="Ícone Minha Conta" />
+        <IconUsers src={`${process.env.PUBLIC_URL}/assets/icons/icon-user.svg`} alt="Ícone Minha Conta" />
         Minha Conta
       </SpanDefault>
       <SpanDefault>
-        <IconUsers src="assets/icons/icon-heart.svg" alt="Ícone Minha Conta" />
+        <IconUsers src={`${process.env.PUBLIC_URL}/assets/icons/icon-heart.svg`} alt="Ícone Minha Conta" />
         Minha Conta
       </SpanDefault>
       <MyCart>
         <IconUsers
-          src="assets/icons/icon-shoppingbag.svg"
-          alt="Ícone Meu Carrinho"
+          src={`${process.env.PUBLIC_URL}/assets/icons/icon-shoppingbag.svg`}  alt="Ícone Meu Carrinho"
         />
         Meu Carrinho
       </MyCart>

@@ -10,6 +10,11 @@ const BenefitsContainer = styled.div`
   width: calc(100% - 322px);
   margin: 0 auto;
   padding: 0 20px;
+
+  @media (max-width: 1440px) {
+    width: calc(100% - 40px);
+  }
+
   @media (max-width: 768px) {
     margin-top: 40px;
     width: 100%;

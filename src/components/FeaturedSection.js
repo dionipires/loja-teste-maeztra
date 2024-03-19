@@ -11,6 +11,9 @@ const SectionContainer = styled.div`
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 1440px) {
+    width: calc(100% - 40px);
+  }
 
   @media (max-width: 768px) {
     display: block;
@@ -35,7 +38,7 @@ const ImageColumn = styled.div`
   width: 65%;
   height: 100%;
   min-height: 480px;
-  background: url(./assets/image/bannerContent.png);
+  background: url('https://dionipires.github.io/loja-teste-maeztra/assets/image/bannerContent.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

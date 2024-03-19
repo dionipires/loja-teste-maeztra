@@ -80,13 +80,13 @@ const BannerContent = styled.div`
 
 const CustomNextArrow = (props) => (
   <div {...props}>
-    <img src="assets/icons/arrow.svg" alt="Next" />
+    <img src={`${process.env.PUBLIC_URL}/assets/icons/arrow.svg`} alt="Next" />
   </div>
 );
 
 const CustomPrevArrow = (props) => (
   <div {...props}>
-    <img src="assets/icons/arrow.svg" alt="Prev" />
+    <img src={`${process.env.PUBLIC_URL}/assets/icons/arrow.svg`} alt="Prev" />
   </div>
 );
 

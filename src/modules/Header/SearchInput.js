@@ -2,13 +2,17 @@ import React from "react";
 import styled from "styled-components";
 
 const InputContainer = styled.div`
-  display: flex;
-  align-items: center;
-  background: #efefef;
-  border-radius: 10px;
-  width: 791px;
-  margin: 24px 0;
-
+    display: flex;
+    align-items: center;
+    background: #efefef;
+    border-radius: 10px;
+    max-width: 791px;
+    width: 40%;
+    margin: 24px 90px;
+  
+  @media (max-width: 1440px) {
+    width: 26%;
+  }
   @media (max-width: 768px) {
     display: none;
   }

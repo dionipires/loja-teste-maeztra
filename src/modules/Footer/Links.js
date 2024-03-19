@@ -129,7 +129,7 @@ const Links = () => {
               <ColumnTitle onClick={() => toggleAccordion(index)}>
                 {title}
                 <Icon
-                  src="assets/icons/plus.svg"
+                  src={`${process.env.PUBLIC_URL}/assets/icons/plus.svg`}	
                   rotate={activeColumn === index}
                 />
               </ColumnTitle>

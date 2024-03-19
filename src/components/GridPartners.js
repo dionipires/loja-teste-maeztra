@@ -9,6 +9,11 @@ const GridPartnersContainer = styled.div`
   width: calc(100% - 322px);
   margin: 0 auto;
   padding: 0 20px;
+
+  @media (max-width: 1440px) {
+    width: calc(100% - 40px);
+  }
+
   @media (max-width: 768px) {
     margin-top: 40px;
     width: 100%;
@@ -89,31 +94,31 @@ const GridPartners = () => {
         <Slider {...settings}>
           <GridPartnersListItem>
             <GridPartnersImage
-              src={require("assets/image/marcas-01.png")}
+              src={`${process.env.PUBLIC_URL}/assets/image/marcas-01.png`}
               alt="Marca 01"
             />
           </GridPartnersListItem>
           <GridPartnersListItem>
             <GridPartnersImage
-              src={require("assets/image/marcas-02.png")}
+              src={`${process.env.PUBLIC_URL}/assets/image/marcas-02.png`}
               alt="Marca 02"
             />
           </GridPartnersListItem>
           <GridPartnersListItem>
             <GridPartnersImage
-              src={require("assets/image/marcas-03.png")}
+              src={`${process.env.PUBLIC_URL}/assets/image/marcas-03.png`}
               alt="Marca 03"
             />
           </GridPartnersListItem>
           <GridPartnersListItem>
             <GridPartnersImage
-              src={require("assets/image/marcas-04.png")}
+              src={`${process.env.PUBLIC_URL}/assets/image/marcas-04.png`}
               alt="Marca 04"
             />
           </GridPartnersListItem>
           <GridPartnersListItem>
             <GridPartnersImage
-              src={require("assets/image/marcas-05.png")}
+              src={`${process.env.PUBLIC_URL}/assets/image/marcas-05.png`}
               alt="Marca 05"
             />
           </GridPartnersListItem>
@@ -127,31 +132,31 @@ const GridPartners = () => {
         <GridPartnersList>
           <GridPartnersListItem>
             <GridPartnersImage
-              src={require("assets/image/marcas-01.png")}
+              src={`${process.env.PUBLIC_URL}/assets/image/marcas-01.png`}
               alt="Marca 01"
             />
           </GridPartnersListItem>
           <GridPartnersListItem>
             <GridPartnersImage
-              src={require("assets/image/marcas-02.png")}
+              src={`${process.env.PUBLIC_URL}/assets/image/marcas-02.png`}
               alt="Marca 02"
             />
           </GridPartnersListItem>
           <GridPartnersListItem>
             <GridPartnersImage
-              src={require("assets/image/marcas-03.png")}
+              src={`${process.env.PUBLIC_URL}/assets/image/marcas-03.png`}
               alt="Marca 03"
             />
           </GridPartnersListItem>
           <GridPartnersListItem>
             <GridPartnersImage
-              src={require("assets/image/marcas-04.png")}
+              src={`${process.env.PUBLIC_URL}/assets/image/marcas-04.png`}
               alt="Marca 04"
             />
           </GridPartnersListItem>
           <GridPartnersListItem>
             <GridPartnersImage
-              src={require("assets/image/marcas-05.png")}
+              src={`${process.env.PUBLIC_URL}/assets/image/marcas-05.png`}
               alt="Marca 05"
             />
           </GridPartnersListItem>
