@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "icon": "../assets/icons/earth.svg",
+      "title": "Produtos importados",
+      "description": "Produto de Alta Qualidade"
+    },
+    {
+      "id": 2,
+      "icon": "../assets/icons/stock.svg",
+      "title": "Estoque no Brazil",
+      "description": "Produtos mais perto de você!"
+    },
+    {
+      "id": 3,
+      "icon": "../assets/icons/devolution.svg",
+      "title": "Trocas Garantidas",
+      "description": "Trocas em até 48 horas, vejas as regras"
+    },
+    {
+      "id": 4,
+      "icon": "../assets/icons/selo.svg",
+      "title": "Ganhe 5% off",
+      "description": "Pagando à vista no Cartão"
+    },
+    {
+      "id": 5,
+      "icon": "../assets/icons/truck.svg",
+      "title": "Frete Grátis",
+      "description": "Em compras acima de R$ 499,00"
+    }
+  ]
+  

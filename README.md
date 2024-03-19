@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Maeztra
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto desenvolvido como parte de um desafio técnico proposto pela Empresa Maeztra. O objetivo do projeto é criar um site responsivo para a loja online da Maeztra, apresentando banners promocionais, benefícios, e outras informações relevantes para os clientes.
 
-## Available Scripts
+## Tecnologias Utilizadas
 
-In the project directory, you can run:
+- React.js
+- styled-components
+- react-slick
 
-### `npm start`
+## Instalação
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone o repositório para o seu ambiente local:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+git clone https://github.com/dionipires/desafio-maeztra-dev
+```
 
-### `npm test`
+2. Navegue até o diretório do projeto:
+```
+cd loja-teste-maeztra
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Instale as dependências do projeto:
+```
+npm install
+```
 
-### `npm run build`
+4. Inicie o servidor de desenvolvimento:
+```
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. Abra seu navegador e acesse o endereço [http://localhost:3000](http://localhost:3000) para visualizar o projeto.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Funcionalidades
 
-### `npm run eject`
+- **Banners Promocionais:** Apresenta banners promocionais com informações sobre ofertas e produtos em destaque.
+- **Benefícios:** Exibe uma lista de benefícios oferecidos aos clientes da Maeztra.
+- **Responsividade:** O site é totalmente responsivo, adaptando-se a diferentes tamanhos de tela e dispositivos.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Estrutura de Arquivos
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+A estrutura de arquivos do projeto é organizada da seguinte forma:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+loja-teste-maeztra/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── Banner.js
+│   │   ├── Benefits.js
+│   │   ├── UserArea.js
+│   │   └── ...
+│   ├── services/
+│   │   ├── banner.json
+│   │   └── benefits.json
+│   ├── Styles/
+│   │   └── GlobalStyles.js
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+└── ...
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contribuindo
 
-## Learn More
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias, correções de bugs, ou novas funcionalidades.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Licença
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está licenciado sob a [MIT License](LICENSE).
+```
