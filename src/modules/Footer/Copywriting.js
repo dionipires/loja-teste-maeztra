@@ -32,11 +32,11 @@ const Copywriting = () => {
     <CopywritingContainer>
       <Column>
         <Text>Powered by</Text>
-        <Image src="/assets/icons/vtex.svg" alt="VTEX" />
+        <Image src="assets/icons/vtex.svg" alt="VTEX" />
       </Column>
       <Column>
         <Text>Developed by</Text>
-        <Image src="/assets/icons/maeztra.svg" alt="Maeztra" />
+        <Image src="assets/icons/maeztra.svg" alt="Maeztra" />
       </Column>
     </CopywritingContainer>
   );

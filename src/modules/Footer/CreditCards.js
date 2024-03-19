@@ -20,10 +20,10 @@ const Icon = styled.img`
 const CreditCards = () => {
   return (
     <IconsContainer>
-      <Icon src="/assets/icons/visa.svg" alt="Visa" />
-      <Icon src="/assets/icons/mastercard.svg" alt="Mastercard.svg" />
-      <Icon src="/assets/icons/visa.svg" alt="Visa" />
-      <Icon src="/assets/icons/mastercard.svg" alt="Mastercard.svg" />
+      <Icon src="assets/icons/visa.svg" alt="Visa" />
+      <Icon src="assets/icons/mastercard.svg" alt="Mastercard.svg" />
+      <Icon src="assets/icons/visa.svg" alt="Visa" />
+      <Icon src="assets/icons/mastercard.svg" alt="Mastercard.svg" />
     </IconsContainer>
   );
 };

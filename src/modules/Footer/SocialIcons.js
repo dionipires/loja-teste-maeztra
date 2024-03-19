@@ -21,10 +21,10 @@ const Icon = styled.img`
 const SocialIcons = () => {
   return (
     <IconsContainer>
-      <Icon src="/assets/icons/facebook.svg" alt="Facebook" />
-      <Icon src="/assets/icons/linkedin.svg" alt="LinkedIn" />
-      <Icon src="/assets/icons/instagram.svg" alt="Instagram" />
-      <Icon src="/assets/icons/youtube.svg" alt="YouTube" />
+      <Icon src="assets/icons/facebook.svg" alt="Facebook" />
+      <Icon src="assets/icons/linkedin.svg" alt="LinkedIn" />
+      <Icon src="assets/icons/instagram.svg" alt="Instagram" />
+      <Icon src="assets/icons/youtube.svg" alt="YouTube" />
     </IconsContainer>
   );
 };

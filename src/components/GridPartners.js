@@ -89,31 +89,31 @@ const GridPartners = () => {
         <Slider {...settings}>
           <GridPartnersListItem>
             <GridPartnersImage
-              src={require("../assets/image/marcas-01.png")}
+              src={require("assets/image/marcas-01.png")}
               alt="Marca 01"
             />
           </GridPartnersListItem>
           <GridPartnersListItem>
             <GridPartnersImage
-              src={require("../assets/image/marcas-02.png")}
+              src={require("assets/image/marcas-02.png")}
               alt="Marca 02"
             />
           </GridPartnersListItem>
           <GridPartnersListItem>
             <GridPartnersImage
-              src={require("../assets/image/marcas-03.png")}
+              src={require("assets/image/marcas-03.png")}
               alt="Marca 03"
             />
           </GridPartnersListItem>
           <GridPartnersListItem>
             <GridPartnersImage
-              src={require("../assets/image/marcas-04.png")}
+              src={require("assets/image/marcas-04.png")}
               alt="Marca 04"
             />
           </GridPartnersListItem>
           <GridPartnersListItem>
             <GridPartnersImage
-              src={require("../assets/image/marcas-05.png")}
+              src={require("assets/image/marcas-05.png")}
               alt="Marca 05"
             />
           </GridPartnersListItem>
@@ -127,31 +127,31 @@ const GridPartners = () => {
         <GridPartnersList>
           <GridPartnersListItem>
             <GridPartnersImage
-              src={require("../assets/image/marcas-01.png")}
+              src={require("assets/image/marcas-01.png")}
               alt="Marca 01"
             />
           </GridPartnersListItem>
           <GridPartnersListItem>
             <GridPartnersImage
-              src={require("../assets/image/marcas-02.png")}
+              src={require("assets/image/marcas-02.png")}
               alt="Marca 02"
             />
           </GridPartnersListItem>
           <GridPartnersListItem>
             <GridPartnersImage
-              src={require("../assets/image/marcas-03.png")}
+              src={require("assets/image/marcas-03.png")}
               alt="Marca 03"
             />
           </GridPartnersListItem>
           <GridPartnersListItem>
             <GridPartnersImage
-              src={require("../assets/image/marcas-04.png")}
+              src={require("assets/image/marcas-04.png")}
               alt="Marca 04"
             />
           </GridPartnersListItem>
           <GridPartnersListItem>
             <GridPartnersImage
-              src={require("../assets/image/marcas-05.png")}
+              src={require("assets/image/marcas-05.png")}
               alt="Marca 05"
             />
           </GridPartnersListItem>
